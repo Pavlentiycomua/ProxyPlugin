@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Proxy plugin",
+  "version": "0.1",
+
+  "icons": {
+    "64": "images/logo.png"
+  },
+  "permissions": [
+    "proxy",
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Proxy plugin",
+    "default_icon": "images/logo.png",
+    "default_popup": "popup.html"
+  }
+}

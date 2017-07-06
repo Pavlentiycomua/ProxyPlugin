@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:focus{
+    outline: none;
+}
+body{
+    width: 250px;
+    min-height: 250px;
+    background-color: #fff;
+    color: #435964;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 12px;
+}
+h1{
+    color: #424448;
+    text-align: center;
+    font-weight: bold;
+}
+input[type="text"]{
+    width: 94%;
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #e7ebee;
+    outline: none;
+    color: #b2b2b2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+input[type="submit"]{
+    width: 100%;
+    background: #B3E03F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+input[name="back"]{
+    background-color: #3FA9E0;
+}
+input[name="delete"]{
+    background-color: #E03F3F;
+}
+input[name="start"]{
+    display: none;
+}
+input[name="find"],input[name="save_edit"]{
+    display: none;
+}
+input[name="focus"]{
+    background-color: #000000;
+}
+input[name="pause"]{
+    background-color: #FBE100;
+    display: none;
+}
+select{
+    font-size: 14px;
+    border: 1px solid #e7ebee;
+    height: 30px;
+    color: #8e8e8e;
+    background: none;
+}
+a{
+    text-decoration: none;
+    color: #435964;
+}
+header{
+    padding: 5px 0;
+    border-bottom: 1px dotted #435964;
+}
+.hidden{
+    display: none !important;
+}
+.content{
+    min-height: 300px;
+    padding: 10px;
+    overflow: hidden;
+}
+.main{
+    display: none;
+    text-align: center;
+    height: 300px;
+}
+.main > div{
+    min-height: 260px;
+}
+.center{
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.add_new{
+    display: none;
+    font-size: 14px;
+}
+.add_new div#checkbox{
+    line-height: 30px;
+    padding: 10px 0;
+}
+.add_new div#radio_button input{
+    margin: 3px 5px 3px 40px;
+}
+.tasks{
+    display: none;
+}
+.tasks > div{
+    min-height: 370px;
+}
+.tasks > div > div.item{
+    margin-bottom: 10px;
+    height: 30px;
+    overflow: hidden;
+}
+.tasks > div > div:hover span.name, .tasks > div > div:hover span.desc{
+    color: #B3E03F;
+    cursor: pointer;
+}
+.tasks span.status i:hover{
+    color: #B3E03F;
+    cursor: pointer;
+}
+.tasks .item span.no{
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 3px 6px;
+    width: 15px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+}
+.tasks .item span.name{
+    font-size: 14px;
+    width: 190px;
+    position: absolute;
+    left: 47px;
+}
+.tasks .item span.desc{
+    font-size: 12px;
+    width: 190px;
+    position: absolute;
+    color: #ABABAB;
+}
+.tasks .item span.status{
+    position: absolute;
+    left: 345px;
+}
+.tasks .item span.status i{
+    margin: 0 5px;
+}
+.settings{
+    display: none;
+    font-size: 14px;
+}
+.settings > div{
+    min-height: 300px;
+}
+.searching{
+    display: none;
+}
+.slider{
+    margin: 10px 0;
+}
+.search_text > div{
+    margin: 10px 5px;
+    font-size: 14px;
+}
+.search_text span{
+    float: right;
+}
+footer{
+    text-align: right;
+    padding: 5px 10px;
+    border-top: 1px dotted #435964;
+}
+footer a{
+    vertical-align: top;
+    line-height: 19px;
+}
+footer img{
+    width: 20px;
+}
